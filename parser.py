@@ -25,7 +25,7 @@ class ssh:
         else:
             print("Connection not opened.")
 
-connection = ssh("vvvvvv", "vvvvvv", "vvvvvv")
+connection = ssh("xxxxxxxx", "vvvvvv", "vvvvvv")
 
 print " Connected!!! "
 
