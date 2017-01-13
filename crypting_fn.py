@@ -1,4 +1,5 @@
 #!/usr/bin/python
+#hello
 
 from Crypto.Cipher import AES
 import base64
@@ -14,5 +15,6 @@ def encoder( str ):
    print str
    return;
 
+print "new"
 str1=raw_input("Enter the Text: ")
 encoder(str1)
